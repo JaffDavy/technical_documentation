@@ -32,7 +32,6 @@ header {
   overflow-x: hidden;
   height: min(82vh, 1000px);
 }
-  
 #navbar li {
   color: #4d4e53;
   border-top: 1px solid;
@@ -40,7 +39,6 @@ header {
   position: relative;
   width: 100%;
 }
-  
 #navbar a {
 display: block;
   padding: 10px 30px;
@@ -48,7 +46,6 @@ display: block;
   text-decoration: none;
   cursor: pointer;
 }
-  
  #main-doc {
   position: absolute;
   margin-left: 310px;
@@ -70,7 +67,7 @@ code {
   position: relative;
   word-break: normal;
   word-wrap: normal;
-  line-height: 2;
+  line-height: 2px;
   background-color: #f7f7f7;
   padding: 15px;
   margin: 10px;
