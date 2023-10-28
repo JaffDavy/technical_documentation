@@ -98,7 +98,7 @@ code {
   padding-right: 45px;
   min-width: 233px;
 }
- .div-scroll{
+.div-scroll{
   height: 100vh;
   overflow: scroll;
 }
