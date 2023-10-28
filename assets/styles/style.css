@@ -1,8 +1,8 @@
 body {
   min-width: 290px;
   color: #4d4e53;
-  background-color: #ffff; 
-  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #ffff;
+  font-family: "Open Sans, Arial, sans-serif";
   line-height: 1.5;
 }
 
@@ -15,6 +15,16 @@ body {
   height: 100%;
   border-right: solid;
   border-color: black;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 275px;
+  border: none;
+  z-index: 1;
+  border-bottom: 2px solid;
 }
 
 header {
@@ -45,6 +55,9 @@ header {
   width: 100%;
 }
 
+section li {
+  margin: 15px 0px 0px 20px;
+}
 #navbar a {
   display: block;
   padding: 10px 30px;
@@ -53,21 +66,10 @@ header {
   cursor: pointer;
 }
 
- #main-doc {
-  position: absolute;
-  margin-left: 310px;
-  padding: 20px;
-  margin-bottom: 110px;
-}
-
 section article {
   color: #4d4e53;
   margin: 15px;
   font-size: 0.96em;
-}
-
-section li {
-  margin: 15px 0px 0px 20px;
 }
 
 code {
@@ -82,28 +84,6 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
-}
-
-#navbar {
-  background-color: white;
-  position: absolute;
-  top: 0;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-height: 275px;
-  border: none;
-  z-index: 1;
-  border-bottom: 2px solid;
-}
-
-#main-doc {
-  position: relative;
-  margin-left: 0px;
-  margin-top: 270px;
-}
-
-code {
   margin-left: -20px;
   width: 100%;
   padding: 15px;
@@ -112,7 +92,17 @@ code {
   min-width: 233px;
 }
 
-.div-scroll{
+#main-doc {
+  position: relative;
+  margin-left: 0px;
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.div-scroll {
   height: 100vh;
   overflow: scroll;
 }
