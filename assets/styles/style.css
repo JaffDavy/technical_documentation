@@ -4,7 +4,8 @@ body {
   background-color: #ffff; 
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
-} 
+}
+
 #navbar {
   position: fixed;
   min-width: 290px;
@@ -14,24 +15,28 @@ body {
   height: 100%;
   border-right: solid;
   border-color: black;
-} 
+}
+
 header {
   color: black;
   margin: 10px;
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
-} 
+}
+
 #main-doc header {
   text-align: left;
   margin: 0px;
-} 
+}
+
 #navbar ul {
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
   height: min(82vh, 1000px);
 }
+
 #navbar li {
   color: #4d4e53;
   border-top: 1px solid;
@@ -39,27 +44,32 @@ header {
   position: relative;
   width: 100%;
 }
+
 #navbar a {
-display: block;
+  display: block;
   padding: 10px 30px;
   color: #4d4e53;
   text-decoration: none;
   cursor: pointer;
 }
+
  #main-doc {
   position: absolute;
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px;
-}  
+}
+
 section article {
   color: #4d4e53;
   margin: 15px;
   font-size: 0.96em;
-}  
+}
+
 section li {
   margin: 15px 0px 0px 20px;
-}  
+}
+
 code {
   display: block;
   text-align: left;
@@ -73,6 +83,7 @@ code {
   margin: 10px;
   border-radius: 5px;
 }
+
 #navbar {
   background-color: white;
   position: absolute;
@@ -85,11 +96,13 @@ code {
   z-index: 1;
   border-bottom: 2px solid;
 }
+
 #main-doc {
   position: relative;
   margin-left: 0px;
   margin-top: 270px;
 }
+
 code {
   margin-left: -20px;
   width: 100%;
@@ -98,6 +111,7 @@ code {
   padding-right: 45px;
   min-width: 233px;
 }
+
 .div-scroll{
   height: 100vh;
   overflow: scroll;
