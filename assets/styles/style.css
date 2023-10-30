@@ -100,4 +100,5 @@ code {
 .div-scroll {
   height: 100vh;
   overflow: scroll;
+  min-width: 290px;
 }
